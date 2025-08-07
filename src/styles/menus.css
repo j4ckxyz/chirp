@@ -3,13 +3,10 @@
     display: flex; /* Flex container */
     flex-direction: column; /* Stack items vertically */
     min-height: 100vh; /* Minimum height of viewport */
-    position: fixed; /* Fixed positioning */
-    top: 0; /* Align to the top */
-    right: 0; /* Align to the right */
-    padding-right: 5vw; /* Right padding */
     margin: 12px; /* Margin around the sidebar */
     margin-top: 24px; /* Top margin */
-    width: 20vw; /* Width of sidebar */
+    width: 350px;
+    margin-left: 24px;
 }
 
 /* Styles for items inside the sidebar */
@@ -26,7 +23,7 @@
     width: 100%; /* Full width */
     margin-bottom: 24px; /* Bottom margin */
     border-radius: 8px; /* Rounded corners */
-    background-color: #8b8b8b2d; /* Semi-transparent background */
+    background-color: #1A202C; /* Semi-transparent background */
 }
 
 /* Styles for paragraph elements inside the sidebar items */
@@ -74,14 +71,14 @@
 
 /* Styles for the header */
 header {
-    background-color: black;
+    background-color: #14171A;
     display: flex; /* Flex container */
     flex-direction: column; /* Stack items vertically */
     min-height: 100vh; /* Minimum height of viewport */
-    position: fixed; /* Fixed positioning */
     top: 0; /* Align to the top */
     left: 0; /* Align to the left */
-    margin-left: 13vw; /* Left margin */
+    width: 275px;
+    margin-right: 24px;
 }
 
 /* Styles for nested div elements inside the header */
@@ -95,7 +92,7 @@ header > div > nav {
 /* Styles for buttons inside the header */
 header > div > button {
     padding: 8px; /* Padding around the button */
-    background-color: black; /* Background color */
+    background-color: #14171A; /* Background color */
     border: none; /* No border */
     text-align: left; /* Left-aligned text */
     font-family: Jost, Arial, Helvetica, sans-serif; /* Font family */
@@ -107,7 +104,6 @@ header > div > button {
     flex-direction: row; /* Arrange items horizontally */
     border-radius: 24px; /* Rounded corners */
     transition: background-color 0.2s linear; /* Smooth background color transition */
-    position: absolute; /* Absolute positioning */
     bottom: 0; /* Align to the bottom */
 }
 
