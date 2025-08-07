@@ -38,14 +38,14 @@
     --orange-hover: #D57100;
     --green: #1AD063;
     --green-hover: #128E3C; 
-    --blue: #10BDF3;
-    --blue-hover: #0A85BA; 
+    --blue: #1DA1F2;
+    --blue-hover: #1a91da;
     --purple: #7A2BFC;
     --purple-hover: #5B1ECC;
 
-    --accent-color: var(--green);
-    --hover-color: var(--green-hover);
-    --text-color: black;
+    --accent-color: var(--blue);
+    --hover-color: var(--blue-hover);
+    --text-color: white;
 }
 
 .showLayoutBounds *{
@@ -58,7 +58,7 @@ body,
 main,
 footer {
     font-family: Jost, Arial, Helvetica, sans-serif; /* Font family */
-    background-color: black; /* Background color */
+    background-color: #14171A; /* Background color */
     color: white; /* Text color */
     scroll-behavior: smooth; /* Smooth scrolling */
     color-scheme: dark; /* Dark color scheme */
@@ -147,6 +147,8 @@ a > img {
     margin-top: 4px; /* Top margin */
     text-align: center; /* Center alignment */
     color: var(--text-color); /* Text color */
+    border-radius: 9999px;
+    padding: 12px;
 }
 
 .newchirp:hover {
@@ -184,9 +186,9 @@ a > img {
     text-align: center; /* Center alignment */
     color: var(--text-color); /* Text color */
     border: none; /* No border */
-    border-radius: 8px; /* Border radius */
+    border-radius: 9999px; /* Border radius */
     font-size: 1em; /* Font size */
-    padding: 8px; /* Padding */
+    padding: 8px 16px; /* Padding */
     display: flex; /* Flex container */
     transition: .2s linear; /* Transition */
 }
@@ -261,7 +263,7 @@ main {
     display: flex; /* Flex container */
     flex-direction: column; /* Column direction */
     align-items: center; /* Center align items */
-    width: 100vw; /* Full width */
+    flex-grow: 1;
 }
 
 .title {
@@ -362,8 +364,8 @@ button.followButton, .button {
     margin-top: 4px; /* Top margin */
     text-align: center; /* Center alignment */
     color: var(--text-color); /* Text color */
-    border-radius: 8px; /* Border radius */
-    padding: 6px; /* Padding */
+    border-radius: 9999px; /* Border radius */
+    padding: 6px 16px; /* Padding */
     height: fit-content; /* Height based on content */
     font-size: 1em;
 }
